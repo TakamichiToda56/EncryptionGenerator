@@ -13,5 +13,9 @@ def hello_world():
 def login():
     return request.args.get('name','')
 
+@app.route('/user/<username>')
+def show_user_profile(username):
+    return username
+
 if __name__ == '__main__':
     app.run()
