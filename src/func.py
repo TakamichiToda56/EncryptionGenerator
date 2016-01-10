@@ -1,6 +1,5 @@
 import unittest, functools
 
-
 def ascii2binary(word):
     binary_list = list(map(hex, map(ord, word)))
     return binary_list
@@ -25,6 +24,12 @@ def encryption_list(binary_list, add_num):
 def decode_list(cipher_list, diff_num):
     return list(map(functools.partial(decode,diff_num=diff_num),cipher_list))
 
+def bind_cipher(cipher_list):
+    return 'x'.join(list(map(str,cipher_list)))
+
+def split_cipher(cipher):
+    return list(map(int,cipher.split('x')))
+
 class TestSequenceFunction(unittest.TestCase):
     '''
     unittestモジュールを使ったPythonのテストクラス
@@ -34,6 +39,7 @@ class TestSequenceFunction(unittest.TestCase):
     word = "hello"
     binary_list = ['0x68', '0x65', '0x6c', '0x6c', '0x6f']
     cipher_list = [108, 105, 112, 112, 115]
+    cipher = '108x105x112x112x115'
 
     def test_encode_binary(self):
         self.assertEqual(ascii2binary(self.word),self.binary_list)
@@ -53,6 +59,11 @@ class TestSequenceFunction(unittest.TestCase):
     def test_decode_list(self):
         self.assertEqual(decode_list(self.cipher_list,self.key_num),self.binary_list)
         
+    def test_bind_list(self):
+        self.assertEqual(bind_cipher(self.cipher_list),self.cipher)
+
+    def test_split_list(self):
+        self.assertEqual(split_cipher(self.cipher),self.cipher_list)
 
 if __name__ == "__main__":
     unittest.main()
