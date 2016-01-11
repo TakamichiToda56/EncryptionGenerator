@@ -23,3 +23,4 @@ fugafugaの部分に暗号をいれると復号された文字列が出てくる
 - [GETパラメータ取ってくるやつ](http://nekoyukimmm.hatenablog.com/entry/2015/06/23/172641)
 - [Herokuへのデプロイ](http://shkh.hatenablog.com/entry/2013/01/01/192857)
 - [HerokuにPushできない](http://ja.stackoverflow.com/questions/6524/flask%E3%81%AE%E3%82%A2%E3%83%97%E3%83%AA%E3%82%92heroku%E3%81%ABpush%E3%81%A7%E3%81%8D%E3%81%AA%E3%81%84)
+- [Herokuでのpythonのバージョン](http://qiita.com/aureonebulosa/items/06760501d3979c086dbb)
