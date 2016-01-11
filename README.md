@@ -22,6 +22,7 @@ fugafugaの部分に暗号をいれると復号された文字列が出てくる
 - [公式リファレンス(日本語版)](https://flask-docs-ja.readthedocs.org/en/latest/)
 - [GETパラメータ取ってくるやつ](http://nekoyukimmm.hatenablog.com/entry/2015/06/23/172641)
 - [Herokuへのデプロイ](http://shkh.hatenablog.com/entry/2013/01/01/192857)
-- [HerokuにPushできない](http://ja.stackoverflow.com/questions/6524/flask%E3%81%AE%E3%82%A2%E3%83%97%E3%83%AA%E3%82%92heroku%E3%81%ABpush%E3%81%A7%E3%81%8D%E3%81%AA%E3%81%84)
 - [Herokuでのpythonのバージョン](http://qiita.com/aureonebulosa/items/06760501d3979c086dbb)
 - [ポート関係の設定](http://stackoverflow.com/questions/17260338/deploying-flask-with-heroku)
+- [unittest](http://ameblo.jp/taka-vagyok/entry-11579577609.html)   
+> パッケージインストールは「pip install unittest-xml-reporting」でOK
