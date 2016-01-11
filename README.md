@@ -21,3 +21,4 @@ fugafugaの部分に暗号をいれると復号された文字列が出てくる
 ## Reference
 - [公式リファレンス(日本語版)](https://flask-docs-ja.readthedocs.org/en/latest/)
 - [GETパラメータ取ってくるやつ](http://nekoyukimmm.hatenablog.com/entry/2015/06/23/172641)
+- [Herokuへのデプロイ](http://shkh.hatenablog.com/entry/2013/01/01/192857)

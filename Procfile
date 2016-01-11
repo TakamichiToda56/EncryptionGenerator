@@ -1,1 +1,1 @@
-web: python src/generator.py
+web: python3 src/generator.py
