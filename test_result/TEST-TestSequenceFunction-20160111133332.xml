@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite errors="0" failures="0" name="TestSequenceFunction-20160111133332" tests="8" time="0.002">
+	<testcase classname="TestSequenceFunction" name="test_bind_list" time="0.001"/>
+	<testcase classname="TestSequenceFunction" name="test_decode" time="0.000"/>
+	<testcase classname="TestSequenceFunction" name="test_decode_list" time="0.000"/>
+	<testcase classname="TestSequenceFunction" name="test_decode_word" time="0.000"/>
+	<testcase classname="TestSequenceFunction" name="test_encode_binary" time="0.000"/>
+	<testcase classname="TestSequenceFunction" name="test_encryptiom" time="0.000"/>
+	<testcase classname="TestSequenceFunction" name="test_encryption_list" time="0.000"/>
+	<testcase classname="TestSequenceFunction" name="test_split_list" time="0.000"/>
+	<system-out>
+<![CDATA[]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>

@@ -1,4 +1,4 @@
-import unittest, functools
+import unittest, functools, xmlrunner
 
 def ascii2binary(word):
     binary_list = list(map(hex, map(ord, word)))
@@ -66,4 +66,8 @@ class TestSequenceFunction(unittest.TestCase):
         self.assertEqual(split_cipher(self.cipher),self.cipher_list)
 
 if __name__ == "__main__":
-    unittest.main()
+    #unittest.main()
+    loader = unittest.TestLoader()
+    suite = loader.loadTestsFromTestCase(TestSequenceFunction)
+    testRunner = xmlrunner.XMLTestRunner()
+    testRunner.run(suite)
