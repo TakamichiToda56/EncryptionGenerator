@@ -31,10 +31,6 @@ def split_cipher(cipher):
     return list(map(int,cipher.split('x')))
 
 class TestSequenceFunction(unittest.TestCase):
-    '''
-    unittestモジュールを使ったPythonのテストクラス
-    '''
-   
     key_num = 4
     word = "hello"
     binary_list = ['0x68', '0x65', '0x6c', '0x6c', '0x6f']
