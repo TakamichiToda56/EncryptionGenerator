@@ -1,4 +1,4 @@
-from flask import Flask, request
+from flask import Flask, request, render_template
 from func import *
 
 app = Flask(__name__)
@@ -7,13 +7,13 @@ key_num = 4
 
 @app.route('/')
 def index():
-    return 'hello'
+    return "About: https://github.com/TakamichiToda56/EncryptionGenerator"
 
 @app.route('/encryption/<word>')
 def encryption(word):
     binary_list = ascii2binary(word)
     cipher_list = encryption_list(binary_list,key_num)
-    cipher = bind_cipher(cipher_list) 
+    cipher = bind_cipher(cipher_list)
     return cipher
 
 @app.route('/decoding/<cipher>')
